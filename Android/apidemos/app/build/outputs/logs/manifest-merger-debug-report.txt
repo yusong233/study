@@ -1,0 +1,3043 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:22:1-3247:12
+INJECTED from E:\files\apidemos\app\src\main\AndroidManifest.xml:22:1-3247:12
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0fdd47b168bd1e4b829c3d3d22671066\appcompat-v7-24.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3d4ef2b3428fd2e00049e59c5ed76295\animated-vector-drawable-24.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f3e19271df614570f4aea1a14c7a51cf\support-vector-drawable-24.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6604e1fd68c93dfff76c7dcde3436152\support-v4-24.0.0\AndroidManifest.xml:17:1-27:12
+INJECTED from E:\files\apidemos\app\src\main\AndroidManifest.xml:22:1-3247:12
+	package
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:23:5-39
+		INJECTED from E:\files\apidemos\app\src\main\AndroidManifest.xml
+		INJECTED from E:\files\apidemos\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:22:11-69
+	android:installLocation
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:24:5-35
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:26:5-72
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:26:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:27:5-73
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:27:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:28:5-66
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:28:22-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:29:22-78
+uses-permission#android.permission.INTERNET
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:30:5-67
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:30:22-64
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:31:5-72
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:31:22-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:32:5-81
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:32:22-78
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:33:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:34:5-70
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:34:22-67
+uses-permission#android.permission.RECEIVE_MMS
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:35:5-69
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:35:22-67
+uses-permission#android.permission.WRITE_SMS
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:36:5-67
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:36:22-65
+uses-permission#android.permission.READ_SMS
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:37:5-66
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:37:22-64
+uses-permission#android.permission.NFC
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:38:5-62
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:38:22-59
+uses-permission#android.permission.TRANSMIT_IR
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:39:5-70
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:39:22-67
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:40:5-74
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:40:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:41:5-67
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:41:22-65
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:45:5-71
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:45:22-68
+uses-permission#android.permission.CAMERA
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:49:5-65
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:49:22-62
+uses-feature#android.hardware.camera
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:50:5-60
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:50:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:51:5-95
+	android:required
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:51:68-92
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:51:19-67
+uses-sdk
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:53:5-47
+INJECTED from E:\files\apidemos\app\src\main\AndroidManifest.xml:53:5-47
+INJECTED from E:\files\apidemos\app\src\main\AndroidManifest.xml:53:5-47
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0fdd47b168bd1e4b829c3d3d22671066\appcompat-v7-24.0.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0fdd47b168bd1e4b829c3d3d22671066\appcompat-v7-24.0.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3d4ef2b3428fd2e00049e59c5ed76295\animated-vector-drawable-24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3d4ef2b3428fd2e00049e59c5ed76295\animated-vector-drawable-24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f3e19271df614570f4aea1a14c7a51cf\support-vector-drawable-24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f3e19271df614570f4aea1a14c7a51cf\support-vector-drawable-24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6604e1fd68c93dfff76c7dcde3436152\support-v4-24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6604e1fd68c93dfff76c7dcde3436152\support-v4-24.0.0\AndroidManifest.xml:21:5-23:54
+INJECTED from E:\files\apidemos\app\src\main\AndroidManifest.xml:53:5-47
+INJECTED from E:\files\apidemos\app\src\main\AndroidManifest.xml:53:5-47
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0fdd47b168bd1e4b829c3d3d22671066\appcompat-v7-24.0.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:53:15-44
+		INJECTED from E:\files\apidemos\app\src\main\AndroidManifest.xml
+		INJECTED from E:\files\apidemos\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\files\apidemos\app\src\main\AndroidManifest.xml
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:53:5-47
+		INJECTED from E:\files\apidemos\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:55:5-3241:19
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0fdd47b168bd1e4b829c3d3d22671066\appcompat-v7-24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0fdd47b168bd1e4b829c3d3d22671066\appcompat-v7-24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3d4ef2b3428fd2e00049e59c5ed76295\animated-vector-drawable-24.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3d4ef2b3428fd2e00049e59c5ed76295\animated-vector-drawable-24.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f3e19271df614570f4aea1a14c7a51cf\support-vector-drawable-24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f3e19271df614570f4aea1a14c7a51cf\support-vector-drawable-24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6604e1fd68c93dfff76c7dcde3436152\support-v4-24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6604e1fd68c93dfff76c7dcde3436152\support-v4-24.0.0\AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:59:13-39
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:56:13-57
+	android:hardwareAccelerated
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:58:13-47
+	android:icon
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:57:13-53
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:60:13-78
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:55:18-52
+uses-library#com.example.will.never.exist
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:64:9-94
+	android:required
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:64:67-91
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:64:23-66
+activity#com.example.android.apis.ApiDemos
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:66:9-72:20
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:66:19-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:67:13-71:29
+action#android.intent.action.MAIN
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:68:17-69
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:68:25-66
+category#android.intent.category.DEFAULT
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:69:17-76
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:69:27-73
+category#android.intent.category.LAUNCHER
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:70:17-77
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:70:27-74
+activity#com.example.android.apis.app.HelloWorld
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:80:9-85:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:80:50-94
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:80:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.SAMPLE_CODE
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:81:13-84:29
+category#android.intent.category.SAMPLE_CODE
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:83:17-80
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:83:27-77
+activity#com.example.android.apis.app.DialogActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:87:9-94:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:88:17-56
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:89:17-58
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:87:19-53
+activity#com.example.android.apis.app.CustomDialogActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:96:9-103:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:97:17-63
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:98:17-58
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:96:19-59
+activity#com.example.android.apis.app.OverscanActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:105:9-113:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:108:17-60
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:106:17-58
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:105:19-55
+activity#com.example.android.apis.app.QuickContactsDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:115:8-121:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:116:17-60
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:115:18-55
+activity#com.example.android.apis.app.WallpaperActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:123:9-130:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:124:17-59
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:125:17-55
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:123:19-56
+activity#com.example.android.apis.app.TranslucentActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:132:9-139:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:133:17-61
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:134:17-57
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:132:19-58
+activity#com.example.android.apis.app.TranslucentBlurActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:141:9-148:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:142:17-66
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:143:17-57
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:141:19-62
+activity#com.example.android.apis.app.Animation
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:150:9-155:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:150:49-91
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:150:19-48
+activity#com.example.android.apis.app.SaveRestoreState
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:157:9-164:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:158:17-62
+	android:windowSoftInputMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:159:17-72
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:157:19-55
+activity#com.example.android.apis.app.PersistentState
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:166:9-173:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:167:17-60
+	android:windowSoftInputMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:168:17-72
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:166:19-54
+activity#com.example.android.apis.app.ActivityRecreate
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:175:9-182:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:177:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:176:17-58
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:175:19-55
+activity#com.example.android.apis.app.FinishAffinity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:184:9-192:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:187:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:185:17-65
+	android:taskAffinity
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:186:17-50
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:184:19-53
+activity#com.example.android.apis.app.SoftInputModes
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:194:9-200:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:195:17-57
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:194:19-53
+activity#com.example.android.apis.app.ReceiveResult
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:202:9-207:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:202:53-100
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:202:19-52
+activity#com.example.android.apis.app.SendResult
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:209:9-211:20
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:210:17-60
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:209:19-49
+activity#com.example.android.apis.app.Forwarding
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:213:9-218:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:213:50-93
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:213:19-49
+activity#com.example.android.apis.app.ForwardTarget
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:220:9-221:20
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:220:19-52
+activity#com.example.android.apis.app.RedirectEnter
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:223:9-228:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:223:53-94
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:223:19-52
+activity#com.example.android.apis.app.RedirectMain
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:230:9-231:20
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:230:19-51
+activity#com.example.android.apis.app.RedirectGetter
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:233:9-234:20
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:233:19-53
+activity#com.example.android.apis.app.CustomTitle
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:238:9-246:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:239:17-62
+	android:windowSoftInputMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:240:17-69
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:241:17-53
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:238:19-50
+activity#com.example.android.apis.app.ReorderOnLaunch
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:248:9-254:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:249:17-57
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:248:19-54
+activity#com.example.android.apis.app.RotationAnimation
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:256:9-262:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:257:17-68
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:256:19-56
+activity#com.example.android.apis.app.ReorderTwo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:264:9-52
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:264:19-49
+activity#com.example.android.apis.app.ReorderThree
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:265:9-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:265:19-51
+activity#com.example.android.apis.app.ReorderFour
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:266:9-53
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:266:19-50
+activity#com.example.android.apis.app.SetWallpaperActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:268:9-274:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:269:19-64
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:268:19-59
+activity#com.example.android.apis.app.ScreenOrientation
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:276:9-282:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:277:19-70
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:276:19-56
+activity#com.example.android.apis.app.PresentationActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:284:9-290:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:285:17-62
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:284:19-59
+activity#com.example.android.apis.app.PresentationWithMediaRouterActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:292:9-298:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:293:17-80
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:292:19-74
+activity#com.example.android.apis.app.SecureWindowActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:300:9-306:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:301:17-63
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:300:19-59
+activity#com.example.android.apis.app.SecureDialogActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:308:9-314:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:309:17-63
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:308:19-59
+activity#com.example.android.apis.app.SecureSurfaceViewActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:316:9-322:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:317:17-69
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:316:19-64
+activity#com.example.android.apis.app.FragmentAlertDialog
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:326:9-333:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:328:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:327:17-62
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:326:19-58
+activity#com.example.android.apis.app.FragmentArguments
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:335:9-342:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:337:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:336:17-59
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:335:19-56
+activity#com.example.android.apis.app.FragmentCustomAnimations
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:344:9-351:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:346:17-60
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:345:17-67
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:344:19-63
+activity#com.example.android.apis.app.FragmentHideShow
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:353:9-361:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:356:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:354:17-59
+	android:windowSoftInputMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:355:17-61
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:353:19-55
+activity#com.example.android.apis.app.FragmentContextMenu
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:363:9-370:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:365:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:364:17-62
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:363:19-58
+activity#com.example.android.apis.app.FragmentDialog
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:372:9-379:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:374:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:373:17-56
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:372:19-53
+activity#com.example.android.apis.app.FragmentDialogOrActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:381:9-388:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:383:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:382:17-68
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:381:19-63
+activity#com.example.android.apis.app.FragmentLayout
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:390:9-397:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:392:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:391:17-56
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:390:19-53
+activity#com.example.android.apis.app.FragmentLayout$DetailsActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:399:9-400:60
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:400:17-57
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:399:19-69
+activity#com.example.android.apis.app.FragmentListArray
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:402:9-409:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:404:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:403:17-60
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:402:19-56
+activity#com.example.android.apis.app.FragmentMenu
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:411:9-418:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:413:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:412:17-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:411:19-51
+activity#com.example.android.apis.app.FragmentNestingTabs
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:420:9-427:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:422:17-60
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:421:17-62
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:420:19-58
+activity#com.example.android.apis.app.FragmentRetainInstance
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:429:9-436:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:431:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:430:17-65
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:429:19-61
+activity#com.example.android.apis.app.FragmentReceiveResult
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:438:9-445:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:440:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:439:17-64
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:438:19-60
+activity#com.example.android.apis.app.FragmentStack
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:447:9-454:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:449:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:448:17-55
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:447:19-52
+activity#com.example.android.apis.app.FragmentTabs
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:456:9-463:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:458:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:457:17-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:456:19-51
+activity#com.example.android.apis.app.LoaderCursor
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:467:9-474:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:469:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:468:17-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:467:19-51
+activity#com.example.android.apis.app.LoaderCustom
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:476:9-483:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:478:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:477:17-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:476:19-51
+activity#com.example.android.apis.app.LoaderThrottle
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:486:9-493:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:488:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:487:17-56
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:486:19-53
+provider#com.example.android.apis.app.LoaderThrottle$SimpleProvider
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:494:9-496:62
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:496:19-59
+	android:authorities
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:495:19-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:494:19-68
+activity#com.example.android.apis.app.LoaderRetained
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:499:9-506:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:501:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:500:17-56
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:499:19-53
+activity#com.example.android.apis.app.Intents
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:510:9-515:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:510:47-87
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:510:19-46
+activity#com.example.android.apis.app.IntentActivityFlags
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:517:9-523:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:518:17-71
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:517:19-58
+service#com.example.android.apis.app.LocalService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:527:9-81
+	android:stopWithTask
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:527:51-78
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:527:18-50
+activity#com.example.android.apis.app.LocalServiceActivities$Controller
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:529:9-536:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:530:17-74
+	android:launchMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:531:17-47
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:529:19-72
+activity#com.example.android.apis.app.LocalServiceActivities$Binding
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:538:9-544:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:539:17-71
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:538:19-69
+service#com.example.android.apis.app.MessengerService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:547:9-548:45
+	android:process
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:548:17-42
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:547:18-54
+activity#com.example.android.apis.app.MessengerServiceActivities$Binding
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:551:9-557:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:552:17-75
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:551:19-73
+service#com.example.android.apis.app.RemoteService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:559:9-80
+	android:process
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:559:52-77
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:559:18-51
+activity#com.example.android.apis.app.RemoteService$Controller
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:561:9-568:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:562:17-75
+	android:launchMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:563:17-47
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:561:19-63
+activity#com.example.android.apis.app.RemoteService$Binding
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:570:9-576:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:571:17-72
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:570:19-60
+activity#com.example.android.apis.app.RemoteService$BindingOptions
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:578:9-584:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:579:17-80
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:578:19-67
+service#com.example.android.apis.app.ServiceStartArguments
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:586:9-62
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:586:18-59
+activity#com.example.android.apis.app.ServiceStartArguments$Controller
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:588:9-595:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:589:17-84
+	android:launchMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:590:17-47
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:588:19-71
+service#com.example.android.apis.app.ForegroundService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:597:9-58
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:597:18-55
+activity#com.example.android.apis.app.ForegroundService$Controller
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:599:9-606:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:600:17-79
+	android:launchMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:601:17-47
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:599:19-67
+activity#com.example.android.apis.app.IsolatedService$Controller
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:608:9-616:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:611:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:609:17-77
+	android:launchMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:610:17-47
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:608:19-65
+service#com.example.android.apis.app.IsolatedService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:618:9-619:60
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:619:17-57
+	android:isolatedProcess
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:618:54-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:618:18-53
+service#com.example.android.apis.app.IsolatedService2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:620:9-621:60
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:621:17-57
+	android:isolatedProcess
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:620:55-85
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:620:18-54
+receiver#com.example.android.apis.app.OneShotAlarm
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:625:9-80
+	android:process
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:625:52-77
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:625:19-51
+receiver#com.example.android.apis.app.RepeatingAlarm
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:627:9-82
+	android:process
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:627:54-79
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:627:19-53
+activity#com.example.android.apis.app.AlarmController
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:629:9-634:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:629:55-104
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:629:19-54
+service#com.example.android.apis.app.AlarmService_Service
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:636:9-87
+	android:process
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:636:59-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:636:18-58
+activity#com.example.android.apis.app.AlarmService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:638:9-643:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:638:52-98
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:638:19-51
+receiver#com.example.android.apis.app.DoNothing
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:647:9-648:68
+	android:process
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:648:17-41
+	android:exported
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:648:42-65
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:647:19-48
+activity#com.example.android.apis.accessibility.ClockBackActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:654:9-660:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:655:13-58
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:654:19-66
+service#com.example.android.apis.accessibility.ClockBackService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:662:9-668:19
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:663:13-64
+	android:permission
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:664:13-79
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:662:18-64
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:665:13-667:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:666:17-92
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:666:25-89
+service#com.example.android.apis.accessibility.MagnificationService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:670:9-678:19
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:671:18-69
+	android:permission
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:672:18-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:670:18-68
+meta-data#android.accessibilityservice
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:676:13-677:72
+	android:resource
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:677:24-69
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:676:24-67
+activity#com.example.android.apis.accessibility.TaskListActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:680:9-687:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:682:19-66
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:681:19-69
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:680:19-65
+service#com.example.android.apis.accessibility.TaskBackService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:689:9-699:19
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:691:18-65
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:690:18-74
+	android:permission
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:692:18-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:689:18-63
+activity#com.example.android.apis.accessibility.CustomViewAccessibilityActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:701:9-708:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:703:19-66
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:702:19-68
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:701:19-80
+activity#com.example.android.apis.app.LocalSample
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:712:9-717:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:712:51-96
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:712:19-50
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:713:13-716:29
+activity#com.example.android.apis.app.ContactsFilter
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:719:9-724:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:719:54-102
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:719:19-53
+activity#com.example.android.apis.app.NotifyWithText
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:729:9-734:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:729:54-101
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:729:19-53
+activity#com.example.android.apis.app.IncomingMessage
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:736:9-742:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:737:17-65
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:736:19-54
+activity#com.example.android.apis.app.IncomingMessageView
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:744:9-746:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:745:17-69
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:744:19-58
+activity#com.example.android.apis.app.IncomingMessageInterstitial
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:749:9-755:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:750:17-50
+	android:excludeFromRecents
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:754:17-50
+	android:launchMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:752:17-48
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:751:17-58
+	android:taskAffinity
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:753:17-40
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:749:19-66
+activity#com.example.android.apis.app.NotificationDisplay
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:762:9-767:20
+	android:excludeFromRecents
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:765:17-50
+	android:noHistory
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:766:17-41
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:763:17-57
+	android:taskAffinity
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:764:17-40
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:762:19-58
+activity#com.example.android.apis.app.StatusBarNotifications
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:769:9-776:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:770:17-60
+	android:launchMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:771:17-47
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:769:19-61
+service#com.example.android.apis.app.NotifyingService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:778:9-57
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:778:18-54
+activity#com.example.android.apis.app.NotifyingController
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:780:9-785:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:780:59-120
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:780:19-58
+activity#com.example.android.apis.app.AlertDialogSamples
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:788:9-793:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:788:58-103
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:788:19-57
+activity#com.example.android.apis.app.SearchInvoke
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:802:9-821:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:803:19-56
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:802:19-51
+meta-data#android.app.default_searchable
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:811:13-812:66
+	android:value
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:812:24-63
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:811:24-69
+activity#com.example.android.apis.app.SearchQueryResults
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:826:9-845:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:827:19-63
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:826:19-57
+intent-filter#action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:835:13-838:29
+action#android.intent.action.SEARCH
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:836:17-71
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:836:25-68
+meta-data#android.app.searchable
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:843:13-844:61
+	android:resource
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:844:24-58
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:843:24-61
+provider#com.example.android.apis.app.SearchSuggestionSampleProvider
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:850:9-851:87
+	android:authorities
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:851:19-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:850:19-69
+activity#com.example.android.apis.app.LauncherShortcuts
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:876:9-883:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:877:19-52
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:876:19-56
+activity-alias#com.example.android.apis.app.CreateShortcuts
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:889:9-899:26
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:891:13-53
+	android:targetActivity
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:890:13-60
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:889:25-60
+intent-filter#action:name:android.intent.action.CREATE_SHORTCUT+category:name:android.intent.category.DEFAULT
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:894:13-897:29
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:895:17-80
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:895:25-77
+activity#com.example.android.apis.app.MenuInflateFromXml
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:903:9-908:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:903:58-101
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:903:19-57
+activity#com.example.android.apis.app.DeviceAdminSample
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:912:9-918:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:913:17-69
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:912:19-56
+receiver#com.example.android.apis.app.DeviceAdminSample$DeviceAdminSampleReceiver
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:921:9-930:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:922:17-60
+	android:permission
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:924:17-74
+	android:description
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:923:17-78
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:921:19-82
+meta-data#android.app.device_admin
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:925:13-926:70
+	android:resource
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:926:24-67
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:925:24-63
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:927:13-929:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:928:17-82
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:928:25-79
+receiver#com.example.android.apis.app.DeviceAdminSample$DeviceAdminSampleReceiver2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:931:9-940:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:932:13-57
+	android:permission
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:934:13-70
+	android:description
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:933:13-75
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:931:19-83
+activity#com.example.android.apis.app.VoiceRecognition
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:945:9-950:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:945:56-97
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:945:19-55
+activity#com.example.android.apis.app.TextToSpeechActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:954:9-959:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:954:60-98
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:954:19-59
+activity#com.example.android.apis.app.ActionBarMechanics
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:962:9-969:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:964:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:963:17-61
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:962:19-57
+activity#com.example.android.apis.app.ActionBarUsage
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:971:9-978:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:973:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:972:17-57
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:971:19-53
+activity#com.example.android.apis.app.ActionBarDisplayOptions
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:980:9-988:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:983:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:981:17-67
+	android:logo
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:982:17-61
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:980:19-62
+activity#com.example.android.apis.app.ActionBarTabs
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:990:9-997:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:992:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:991:17-56
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:990:19-52
+activity#com.example.android.apis.app.ActionBarSettingsActionProviderActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:999:9-1006:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1001:17-64
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1000:17-76
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:999:19-78
+activity#com.example.android.apis.app.ActionBarShareActionProviderActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1008:9-1015:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1010:17-64
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1009:17-73
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1008:19-75
+activity#com.example.android.apis.app.ActionBarNavigation
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1017:9-1026:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1019:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1018:17-62
+	android:launchMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1021:17-48
+	android:taskAffinity
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1020:17-55
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1017:19-58
+activity#com.example.android.apis.app.ActionBarNavigationTarget
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1028:9-1033:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1030:17-57
+	android:parentActivityName
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1031:17-70
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1029:17-69
+	android:taskAffinity
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1032:17-55
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1028:19-64
+activity#com.example.android.apis.app.PrintBitmap
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1035:9-1042:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1037:17-54
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1036:17-53
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1035:19-50
+activity#com.example.android.apis.app.PrintHtmlFromScreen
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1044:9-1051:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1046:17-54
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1045:17-63
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1044:19-58
+activity#com.example.android.apis.app.PrintHtmlOffScreen
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1053:9-1060:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1055:17-54
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1054:17-62
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1053:19-57
+activity#com.example.android.apis.app.PrintCustomContent
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1062:9-1069:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1064:17-54
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1063:17-61
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1062:19-57
+receiver#com.example.android.apis.app.AppUpdateReceiver
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1074:9-1078:20
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1074:19-56
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1075:13-1077:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1076:17-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1076:25-81
+receiver#com.example.android.apis.app.AppUpdateSspReceiver
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1081:9-1086:20
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1081:19-59
+intent-filter#action:name:android.intent.action.PACKAGE_REPLACED+data:scheme:package
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1082:13-1085:29
+action#android.intent.action.PACKAGE_REPLACED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1083:17-81
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1083:25-78
+data
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1084:17-89
+	android:scheme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1084:23-47
+	android:mimeType
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1316:23-52
+	android:ssp
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1084:48-86
+activity#com.example.android.apis.preference.FragmentPreferences
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1092:9-1099:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1094:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1093:17-61
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1092:19-65
+activity#com.example.android.apis.preference.PreferenceWithHeaders
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1101:9-1108:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1103:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1102:17-64
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1101:19-67
+activity#com.example.android.apis.preference.PreferencesFromXml
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1110:9-1116:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1111:17-61
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1110:19-64
+activity#com.example.android.apis.preference.PreferencesFromCode
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1118:9-1124:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1119:17-62
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1118:19-65
+activity#com.example.android.apis.preference.AdvancedPreferences
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1126:9-1132:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1127:17-61
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1126:19-65
+activity#com.example.android.apis.preference.LaunchingPreferences
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1134:9-1140:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1135:17-62
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1134:19-66
+activity#com.example.android.apis.preference.PreferenceDependencies
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1142:9-1148:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1143:17-64
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1142:19-68
+activity#com.example.android.apis.preference.DefaultValues
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1150:9-1155:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1150:60-98
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1150:19-59
+activity#com.example.android.apis.preference.SwitchPreference
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1157:9-1164:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1159:17-64
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1158:17-58
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1157:19-62
+activity#com.example.android.apis.content.ClipboardSample
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1170:9-1177:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1172:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1171:17-59
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1170:19-58
+activity#com.example.android.apis.content.ExternalStorage
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1179:9-1185:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1179:59-108
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1179:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.EMBED+category:name:android.intent.category.SAMPLE_CODE
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1180:13-1184:29
+category#android.intent.category.EMBED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1183:17-74
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1183:27-71
+activity#com.example.android.apis.content.StyledText
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1187:9-1193:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1187:54-98
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1187:19-53
+activity#com.example.android.apis.content.TextUndoActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1195:9-1201:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1195:60-102
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1195:19-59
+activity#com.example.android.apis.content.ResourcesLayoutReference
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1203:9-1210:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1204:17-76
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1203:19-67
+activity#com.example.android.apis.content.ResourcesWidthAndHeight
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1212:9-1220:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1214:17-60
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1213:17-76
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1212:19-66
+activity#com.example.android.apis.content.ResourcesSmallestWidth
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1222:9-1230:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1224:17-60
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1223:17-74
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1222:19-65
+activity#com.example.android.apis.content.ReadAsset
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1232:9-1238:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1232:53-96
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1232:19-52
+activity#com.example.android.apis.content.ResourcesSample
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1240:9-1245:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1240:59-101
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1240:19-58
+activity#com.example.android.apis.content.PickContact
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1247:9-1252:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1247:55-100
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1247:19-54
+activity#com.example.android.apis.content.ShareContent
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1254:9-1259:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1254:56-102
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1254:19-55
+activity#com.example.android.apis.content.ChangedContacts
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1261:9-1266:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1261:59-107
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1261:19-58
+activity#com.example.android.apis.content.MediaContentObserver
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1268:9-1274:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1269:17-72
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1268:19-63
+service#com.example.android.apis.content.MediaContentJob
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1276:9-1277:76
+	android:permission
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1277:17-73
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1276:18-57
+service#com.example.android.apis.content.PhotosContentJob
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1279:9-1280:76
+	android:permission
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1280:17-73
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1279:18-58
+activity#com.example.android.apis.content.InstallApk
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1282:9-1288:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1283:17-60
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1282:54-98
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1282:19-53
+activity#com.example.android.apis.content.DocumentsSample
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1290:9-1297:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1292:17-54
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1291:17-59
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1290:19-58
+provider#com.example.android.apis.content.FileProvider
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1299:9-1303:65
+	android:grantUriPermissions
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1301:19-53
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1303:19-62
+	android:authorities
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1300:19-86
+	android:exported
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1302:19-43
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1299:19-55
+activity#com.example.android.apis.content.ProcessTextLauncher
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1305:9-1311:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1306:17-59
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1305:19-62
+activity#com.example.android.apis.content.ProcessText
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1312:9-1318:20
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1312:19-54
+intent-filter#action:name:android.intent.action.PROCESS_TEXT+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1313:13-1317:29
+action#android.intent.action.PROCESS_TEXT
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1314:17-76
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1314:25-74
+activity#com.example.android.apis.hardware.ConsumerIr
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1324:9-1329:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1324:55-91
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1324:19-54
+activity#com.example.android.apis.os.MorseCode
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1335:9-1340:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1335:48-77
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1335:19-47
+activity#com.example.android.apis.os.TriggerSensors
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1342:9-1347:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1342:53-86
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1342:19-52
+activity#com.example.android.apis.os.RotationVectorDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1349:9-1354:20
+	android:screenOrientation
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1349:93-129
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1349:57-91
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1349:19-56
+activity#com.example.android.apis.os.SmsMessagingDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1356:9-1367:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1356:55-87
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1356:19-54
+intent-filter#action:name:android.intent.action.SENDTO+category:name:android.intent.category.DEFAULT+data:scheme:sms+data:scheme:smsto
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1361:13-1366:29
+action#android.intent.action.SENDTO
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1362:17-71
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1362:25-68
+activity#com.example.android.apis.os.MmsMessagingDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1369:9-1380:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1369:55-87
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1369:19-54
+intent-filter#action:name:android.intent.action.SENDTO+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1374:13-1379:29
+activity#com.example.android.apis.os.SmsReceivedDialog
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1382:9-1384:57
+	android:launchMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1384:19-54
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1383:19-78
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1382:19-55
+receiver#com.example.android.apis.os.SmsMessageReceiver
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1386:9-1394:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1386:57-80
+	android:permission
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1387:17-70
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1386:19-56
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1388:13-1390:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1389:17-82
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1389:25-79
+intent-filter#action:name:android.provider.Telephony.SMS_DELIVER
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1391:13-1393:29
+action#android.provider.Telephony.SMS_DELIVER
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1392:17-81
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1392:25-78
+receiver#com.example.android.apis.os.MmsWapPushReceiver
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1396:9-1406:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1396:57-80
+	android:permission
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1397:19-77
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1396:19-56
+intent-filter#action:name:android.provider.Telephony.WAP_PUSH_RECEIVED+data:mimeType:application/vnd.wap.mms-message
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1398:13-1401:29
+action#android.provider.Telephony.WAP_PUSH_RECEIVED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1399:17-87
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1399:25-84
+intent-filter#action:name:android.provider.Telephony.WAP_PUSH_DELIVER+data:mimeType:application/vnd.wap.mms-message
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1402:13-1405:29
+action#android.provider.Telephony.WAP_PUSH_DELIVER
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1403:17-86
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1403:25-83
+service#com.example.android.apis.os.HeadlessSmsSendService
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1408:9-1419:19
+	android:exported
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1410:18-41
+	android:permission
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1409:18-82
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1408:18-59
+intent-filter#action:name:android.intent.action.RESPOND_VIA_MESSAGE+category:name:android.intent.category.DEFAULT+data:scheme:mms+data:scheme:mmsto+data:scheme:sms+data:scheme:smsto
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1411:13-1418:29
+action#android.intent.action.RESPOND_VIA_MESSAGE
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1412:17-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1412:25-81
+provider#com.example.android.apis.os.MmsFileProvider
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1421:9-1425:46
+	android:grantUriPermissions
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1424:19-53
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1423:19-58
+	android:authorities
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1422:19-84
+	android:exported
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1425:19-43
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1421:19-53
+activity#com.example.android.apis.animation.ActivityTransition
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1431:9-1439:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1433:17-56
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1432:17-62
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1434:17-63
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1431:19-63
+activity#com.example.android.apis.animation.ActivityTransitionDetails
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1441:9-1448:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1443:17-56
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1442:17-71
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1444:17-63
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1441:19-70
+activity#com.example.android.apis.animation.AnimationLoading
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1450:9-1457:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1452:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1451:17-50
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1450:19-61
+activity#com.example.android.apis.animation.AnimationCloning
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1459:9-1466:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1461:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1460:17-50
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1459:19-61
+activity#com.example.android.apis.animation.AnimationSeeking
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1468:9-1475:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1470:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1469:17-50
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1468:19-61
+activity#com.example.android.apis.animation.AnimatorEvents
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1477:9-1484:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1479:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1478:17-49
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1477:19-59
+activity#com.example.android.apis.animation.BouncingBalls
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1486:9-1493:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1488:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1487:17-57
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1486:19-58
+activity#com.example.android.apis.animation.CustomEvaluator
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1495:9-1502:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1497:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1496:17-59
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1495:19-60
+activity#com.example.android.apis.animation.ListFlipper
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1504:9-1511:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1506:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1505:17-52
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1504:19-56
+activity#com.example.android.apis.animation.ReversingAnimation
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1513:9-1520:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1515:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1514:17-52
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1513:19-63
+activity#com.example.android.apis.animation.MultiPropertyAnimation
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1522:9-1529:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1524:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1523:17-62
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1522:19-67
+activity#com.example.android.apis.animation.LayoutAnimations
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1531:9-1538:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1533:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1532:17-60
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1531:19-61
+activity#com.example.android.apis.animation.LayoutAnimationsHideShow
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1540:9-1547:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1542:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1541:17-63
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1540:19-69
+activity#com.example.android.apis.animation.LayoutAnimationsByDefault
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1549:9-1556:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1551:19-59
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1550:19-70
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1549:19-70
+activity#com.example.android.apis.animation.Transitions
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1558:9-1565:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1560:19-59
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1559:19-63
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1558:19-56
+activity#com.example.android.apis.animation.PathAnimations
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1567:9-1574:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1569:19-59
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1568:19-60
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1567:19-59
+activity#com.example.android.apis.animation.Transition3d
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1580:9-1585:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1580:58-103
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1580:19-57
+activity#com.example.android.apis.view.ChronometerDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1591:9-1596:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1591:56-89
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1591:19-55
+activity#com.example.android.apis.view.WebView1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1597:9-1602:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1597:49-78
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1597:19-48
+activity#com.example.android.apis.view.RelativeLayout1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1604:9-1609:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1604:56-112
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1604:19-55
+activity#com.example.android.apis.view.RelativeLayout2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1611:9-1616:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1611:56-115
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1611:19-55
+activity#com.example.android.apis.view.LinearLayout1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1618:9-1624:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1619:19-74
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1618:19-53
+activity#com.example.android.apis.view.LinearLayout2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1626:9-1632:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1627:19-88
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1626:19-53
+activity#com.example.android.apis.view.LinearLayout3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1634:9-1640:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1635:19-83
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1634:19-53
+activity#com.example.android.apis.view.LinearLayout4
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1642:9-1648:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1643:19-76
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1642:19-53
+activity#com.example.android.apis.view.LinearLayout5
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1650:9-1656:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1651:19-77
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1650:19-53
+activity#com.example.android.apis.view.LinearLayout6
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1658:9-1664:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1659:19-78
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1658:19-53
+activity#com.example.android.apis.view.LinearLayout7
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1666:9-1672:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1667:19-77
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1666:19-53
+activity#com.example.android.apis.view.LinearLayout8
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1674:9-1680:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1675:19-73
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1674:19-53
+activity#com.example.android.apis.view.LinearLayout9
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1682:9-1688:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1683:19-79
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1682:19-53
+activity#com.example.android.apis.view.LinearLayout10
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1690:9-1696:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1691:19-82
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1690:19-54
+activity#com.example.android.apis.view.CustomLayoutActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1698:9-1704:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1699:19-61
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1698:19-60
+activity#com.example.android.apis.view.RadioGroup1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1706:9-1711:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1706:52-85
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1706:19-51
+activity#com.example.android.apis.view.ScrollView1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1713:9-1718:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1713:52-101
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1713:19-51
+activity#com.example.android.apis.view.ScrollView2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1720:9-1725:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1720:52-100
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1720:19-51
+activity#com.example.android.apis.view.HorizontalScrollView1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1727:9-1732:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1727:62-112
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1727:19-61
+activity#com.example.android.apis.view.Tabs1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1734:9-1739:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1734:46-89
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1734:19-45
+activity#com.example.android.apis.view.Tabs2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1741:9-1746:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1741:46-94
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1741:19-45
+activity#com.example.android.apis.view.Tabs3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1748:9-1753:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1748:46-93
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1748:19-45
+activity#com.example.android.apis.view.Tabs4
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1755:9-1761:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1755:46-90
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1756:19-55
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1755:19-45
+activity#com.example.android.apis.view.Tabs5
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1763:9-1768:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1763:46-86
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1763:19-45
+activity#com.example.android.apis.view.Tabs6
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1770:9-1775:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1770:46-89
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1770:19-45
+activity#com.example.android.apis.view.InternalSelectionScroll
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1777:9-1782:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1777:64-126
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1777:19-63
+activity#com.example.android.apis.view.TableLayout1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1784:9-1789:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1784:53-104
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1784:19-52
+activity#com.example.android.apis.view.TableLayout2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1791:9-1796:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1791:53-110
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1791:19-52
+activity#com.example.android.apis.view.TableLayout3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1798:9-1803:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1798:53-111
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1798:19-52
+activity#com.example.android.apis.view.TableLayout4
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1805:9-1810:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1805:53-110
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1805:19-52
+activity#com.example.android.apis.view.TableLayout5
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1812:9-1817:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1812:53-123
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1812:19-52
+activity#com.example.android.apis.view.TableLayout6
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1819:9-1824:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1819:53-128
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1819:19-52
+activity#com.example.android.apis.view.TableLayout7
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1826:9-1831:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1826:53-114
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1826:19-52
+activity#com.example.android.apis.view.TableLayout8
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1833:9-1838:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1833:53-113
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1833:19-52
+activity#com.example.android.apis.view.TableLayout9
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1840:9-1845:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1840:53-112
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1840:19-52
+activity#com.example.android.apis.view.TableLayout10
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1847:9-1852:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1847:54-111
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1847:19-53
+activity#com.example.android.apis.view.TableLayout11
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1854:9-1859:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1854:54-107
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1854:19-53
+activity#com.example.android.apis.view.TableLayout12
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1861:9-1866:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1861:54-113
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1861:19-53
+activity#com.example.android.apis.view.GridLayout1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1868:9-1873:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1868:52-107
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1868:19-51
+activity#com.example.android.apis.view.GridLayout2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1875:9-1880:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1875:52-106
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1875:19-51
+activity#com.example.android.apis.view.GridLayout3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1882:9-1887:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1882:52-107
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1882:19-51
+activity#com.example.android.apis.view.Baseline1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1889:9-1894:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1889:50-95
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1889:19-49
+activity#com.example.android.apis.view.Baseline2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1896:9-1901:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1896:50-98
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1896:19-49
+activity#com.example.android.apis.view.Baseline3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1903:9-1908:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1903:50-98
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1903:19-49
+activity#com.example.android.apis.view.Baseline4
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1910:9-1915:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1910:50-102
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1910:19-49
+activity#com.example.android.apis.view.Baseline6
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1917:9-1922:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1917:50-102
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1917:19-49
+activity#com.example.android.apis.view.Baseline7
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1924:9-1929:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1924:50-100
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1924:19-49
+activity#com.example.android.apis.view.BaselineNested1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1931:9-1936:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1931:56-111
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1931:19-55
+activity#com.example.android.apis.view.BaselineNested2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1938:9-1943:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1938:56-111
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1938:19-55
+activity#com.example.android.apis.view.BaselineNested3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1945:9-1950:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1945:56-111
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1945:19-55
+activity#com.example.android.apis.view.ScrollBar1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1952:9-1957:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1952:51-92
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1952:19-50
+activity#com.example.android.apis.view.ScrollBar2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1959:9-1964:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1959:51-92
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1959:19-50
+activity#com.example.android.apis.view.ScrollBar3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1966:9-1971:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1966:51-92
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1966:19-50
+activity#com.example.android.apis.view.Visibility1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1973:9-1978:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1973:52-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1973:19-51
+activity#com.example.android.apis.view.List1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1980:9-1985:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1980:46-83
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1980:19-45
+activity#com.example.android.apis.view.List2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1987:9-1992:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1987:46-93
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1987:19-45
+activity#com.example.android.apis.view.List3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1994:9-1999:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1994:46-93
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:1994:19-45
+activity#com.example.android.apis.view.List4
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2001:9-2006:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2001:46-89
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2001:19-45
+activity#com.example.android.apis.view.List5
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2008:9-2013:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2008:46-88
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2008:19-45
+activity#com.example.android.apis.view.List6
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2015:9-2020:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2015:46-99
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2015:19-45
+activity#com.example.android.apis.view.List7
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2022:9-2027:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2022:46-93
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2022:19-45
+activity#com.example.android.apis.view.List8
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2029:9-2034:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2029:46-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2029:19-45
+activity#com.example.android.apis.view.List9
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2036:9-2041:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2036:46-93
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2036:19-45
+activity#com.example.android.apis.view.List10
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2043:9-2048:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2043:47-97
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2043:19-46
+activity#com.example.android.apis.view.List11
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2050:9-2055:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2050:47-99
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2050:19-46
+activity#com.example.android.apis.view.List12
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2057:9-2062:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2057:47-89
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2057:19-46
+activity#com.example.android.apis.view.List13
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2064:9-2069:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2064:47-91
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2064:19-46
+activity#com.example.android.apis.view.List14
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2071:9-2076:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2071:47-96
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2071:19-46
+activity#com.example.android.apis.view.List15
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2078:9-2083:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2078:47-93
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2078:19-46
+activity#com.example.android.apis.view.List16
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2085:9-2090:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2085:47-100
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2085:19-46
+activity#com.example.android.apis.view.List17
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2092:9-2097:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2092:47-93
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2092:19-46
+activity#com.example.android.apis.view.ExpandableList1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2099:9-2104:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2099:56-112
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2099:19-55
+activity#com.example.android.apis.view.ExpandableList2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2106:9-2111:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2106:56-113
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2106:19-55
+activity#com.example.android.apis.view.ExpandableList3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2113:9-2118:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2113:56-112
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2113:19-55
+activity#com.example.android.apis.view.CustomView1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2120:9-2127:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2121:17-45
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2122:17-59
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2120:19-51
+activity#com.example.android.apis.view.Spinner1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2129:9-2134:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2129:49-78
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2129:19-48
+activity#com.example.android.apis.view.Grid1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2136:9-2141:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2136:46-85
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2136:19-45
+activity#com.example.android.apis.view.Grid2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2143:9-2148:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2143:46-86
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2143:19-45
+activity#com.example.android.apis.view.Grid3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2150:9-2156:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2151:19-63
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2150:19-45
+activity#com.example.android.apis.view.ImageView1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2158:9-2164:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2159:17-48
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2158:19-50
+activity#com.example.android.apis.inputmethod.ShowInputMethodAndSubtypeEnabler
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2166:9-2172:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2167:19-86
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2166:19-79
+activity#com.example.android.apis.inputmethod.HintLocales
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2174:9-2180:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2175:19-65
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2174:19-58
+activity#com.example.android.apis.view.EditTextDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2182:9-2188:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2183:19-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2182:19-52
+activity#com.example.android.apis.text.Link
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2190:9-2196:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2191:19-53
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2190:19-44
+activity#com.example.android.apis.text.LogTextBox1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2198:9-2204:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2199:19-56
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2198:19-51
+activity#com.example.android.apis.text.Marquee
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2206:9-2212:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2207:19-53
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2206:19-47
+activity#com.example.android.apis.view.TextClockDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2214:9-2220:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2215:19-55
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2214:19-53
+activity#com.example.android.apis.view.TextSwitcher1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2222:9-2228:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2223:17-56
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2222:19-53
+activity#com.example.android.apis.view.TextViewDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2230:9-2236:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2231:19-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2230:19-52
+activity#com.example.android.apis.view.ImageButton1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2238:9-2244:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2239:17-50
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2238:19-52
+activity#com.example.android.apis.view.Animation1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2246:9-2251:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2246:51-88
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2246:19-50
+activity#com.example.android.apis.view.Animation2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2253:9-2258:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2253:51-87
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2253:19-50
+activity#com.example.android.apis.view.Animation3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2260:9-2265:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2260:51-96
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2260:19-50
+activity#com.example.android.apis.view.LayoutAnimation1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2267:9-2272:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2267:57-108
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2267:19-56
+activity#com.example.android.apis.view.LayoutAnimation2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2274:9-2279:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2274:57-111
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2274:19-56
+activity#com.example.android.apis.view.LayoutAnimation3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2281:9-2286:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2281:57-112
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2281:19-56
+activity#com.example.android.apis.view.LayoutAnimation4
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2288:9-2293:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2288:57-108
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2288:19-56
+activity#com.example.android.apis.view.LayoutAnimation5
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2295:9-2300:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2295:57-113
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2295:19-56
+activity#com.example.android.apis.view.LayoutAnimation6
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2302:9-2307:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2302:57-109
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2302:19-56
+activity#com.example.android.apis.view.LayoutAnimation7
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2309:9-2314:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2309:57-116
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2309:19-56
+activity#com.example.android.apis.view.Controls1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2316:9-2323:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2317:19-64
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2318:19-61
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2316:19-49
+activity#com.example.android.apis.view.Controls2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2325:9-2332:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2326:19-63
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2327:19-55
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2325:19-49
+activity#com.example.android.apis.view.Controls3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2334:9-2342:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2337:19-59
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2335:19-69
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2336:19-66
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2334:19-49
+activity#com.example.android.apis.view.Controls4
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2344:9-2352:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2347:19-59
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2345:19-68
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2346:19-60
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2344:19-49
+activity#com.example.android.apis.view.ControlsMaterialLight
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2354:9-2362:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2357:19-58
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2355:19-73
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2356:19-70
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2354:19-61
+activity#com.example.android.apis.view.ControlsMaterialDark
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2364:9-2372:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2367:19-58
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2365:19-72
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2366:19-64
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2364:19-60
+activity#com.example.android.apis.view.Controls7
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2374:9-2381:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2375:19-65
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2376:19-53
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2374:19-49
+activity#com.example.android.apis.view.Controls8
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2383:9-2390:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2384:19-73
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2385:19-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2383:19-49
+activity#com.example.android.apis.view.Controls9
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2392:9-2398:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2393:19-66
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2392:19-49
+activity#com.example.android.apis.view.Buttons1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2400:9-2406:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2401:17-46
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2400:19-48
+activity#com.example.android.apis.view.AutoComplete1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2408:9-2413:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2408:54-103
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2408:19-53
+activity#com.example.android.apis.view.AutoComplete2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2415:9-2420:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2415:54-106
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2415:19-53
+activity#com.example.android.apis.view.AutoComplete3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2422:9-2427:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2422:54-99
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2422:19-53
+activity#com.example.android.apis.view.AutoComplete4
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2429:9-2434:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2429:54-101
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2429:19-53
+activity#com.example.android.apis.view.AutoComplete5
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2436:9-2441:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2436:54-111
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2436:19-53
+activity#com.example.android.apis.view.AutoComplete6
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2443:9-2448:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2443:54-107
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2443:19-53
+activity#com.example.android.apis.view.ProgressBar1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2450:9-2455:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2450:53-102
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2450:19-52
+activity#com.example.android.apis.view.ProgressBar2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2457:9-2462:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2457:53-97
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2457:19-52
+activity#com.example.android.apis.view.ProgressBar3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2464:9-2469:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2464:53-98
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2464:19-52
+activity#com.example.android.apis.view.SeekBar1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2471:9-2476:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2471:49-79
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2471:19-48
+activity#com.example.android.apis.view.NumberPickerActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2478:9-2483:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2478:61-96
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2478:19-60
+activity#com.example.android.apis.view.RatingBar1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2485:9-2490:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2485:51-83
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2485:19-50
+activity#com.example.android.apis.view.Focus1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2492:9-2497:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2492:47-86
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2492:19-46
+activity#com.example.android.apis.view.Focus2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2499:9-2504:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2499:47-88
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2499:19-46
+activity#com.example.android.apis.view.Focus3
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2506:9-2511:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2506:47-86
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2506:19-46
+activity#com.example.android.apis.view.InternalSelectionFocus
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2513:9-2518:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2513:63-112
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2513:19-62
+activity#com.example.android.apis.view.Focus5
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2520:9-2525:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2520:47-100
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2520:19-46
+activity#com.example.android.apis.view.WindowFocusObserver
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2527:9-2533:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2528:19-71
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2527:19-59
+activity#com.example.android.apis.view.DateWidgets1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2535:9-2540:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2535:53-97
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2535:19-52
+activity#com.example.android.apis.view.DateWidgets2
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2542:9-2547:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2542:53-97
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2542:19-52
+activity#com.example.android.apis.view.PopupMenu1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2549:9-2554:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2549:51-83
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2549:19-50
+activity#com.example.android.apis.view.SearchViewActionBar
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2556:9-2564:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2556:60-104
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2557:17-58
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2556:19-59
+activity#com.example.android.apis.view.SearchViewAlwaysVisible
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2566:9-2574:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2566:64-113
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2567:17-58
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2566:19-63
+activity#com.example.android.apis.view.SearchViewFilterMode
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2576:9-2582:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2576:61-101
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2577:17-58
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2576:19-60
+activity#com.example.android.apis.view.RotatingButton
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2584:9-2589:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2584:55-92
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2584:19-54
+activity#com.example.android.apis.view.SecureView
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2591:9-2596:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2591:51-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2591:19-50
+activity#com.example.android.apis.view.SplitTouchView
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2598:9-2603:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2598:55-107
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2598:19-54
+activity#com.example.android.apis.view.DragAndDropDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2605:9-2613:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2608:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2606:17-52
+	android:hardwareAccelerated
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2607:17-52
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2605:19-55
+activity#com.example.android.apis.view.GameControllerInput
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2615:9-2620:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2615:60-103
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2615:19-59
+activity#com.example.android.apis.view.Hover
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2622:9-2627:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2622:46-80
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2622:19-45
+activity#com.example.android.apis.view.SystemUIModes
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2629:9-2637:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2632:17-60
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2630:17-75
+	android:uiOptions
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2631:17-61
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2629:19-53
+activity#com.example.android.apis.view.SystemUIModesOverlay
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2639:9-2647:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2642:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2640:17-83
+	android:uiOptions
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2641:17-61
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2639:19-60
+activity#com.example.android.apis.view.ContentBrowserActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2649:9-2658:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2653:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2650:17-75
+	android:uiOptions
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2652:17-61
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2651:17-78
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2649:19-62
+activity#com.example.android.apis.view.ContentBrowserNavActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2660:9-2669:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2664:17-54
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2661:17-83
+	android:uiOptions
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2663:17-61
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2662:17-78
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2660:19-65
+activity#com.example.android.apis.view.VideoPlayerActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2671:9-2680:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2675:17-57
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2672:17-72
+	android:uiOptions
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2674:17-61
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2673:17-58
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2671:19-59
+activity#com.example.android.apis.view.TranslucentBarsActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2682:9-2690:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2685:17-54
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2683:17-76
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2684:17-87
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2682:19-63
+activity#com.example.android.apis.view.GameActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2692:9-2700:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2695:17-54
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2693:17-64
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2694:17-70
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2692:19-52
+activity#com.example.android.apis.view.Switches
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2702:9-2707:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2702:49-79
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2702:19-48
+activity#com.example.android.apis.view.PointerShapes
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2709:9-2714:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2709:54-90
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2709:19-53
+activity#com.example.android.apis.graphics.kube.Kube
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2720:9-2726:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2720:54-93
+	android:configChanges
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2721:17-110
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2720:19-53
+activity#com.example.android.apis.graphics.Compass
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2728:9-2733:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2728:52-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2728:19-51
+activity#com.example.android.apis.graphics.CameraPreview
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2735:9-2740:20
+	android:screenOrientation
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2735:97-134
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2735:58-96
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2735:19-57
+activity#com.example.android.apis.graphics.CompressedTextureActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2742:9-2750:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2743:17-70
+	android:configChanges
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2745:17-110
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2744:17-64
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2742:19-69
+activity#com.example.android.apis.graphics.CubeMapActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2752:9-2760:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2753:17-60
+	android:configChanges
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2755:17-110
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2754:17-64
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2752:19-59
+activity#com.example.android.apis.graphics.FrameBufferObjectActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2763:9-2771:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2764:17-71
+	android:configChanges
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2766:17-110
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2765:17-64
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2763:19-69
+activity#com.example.android.apis.graphics.GLSurfaceViewActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2773:9-2781:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2774:17-65
+	android:configChanges
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2776:17-110
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2775:17-64
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2773:19-65
+activity#com.example.android.apis.graphics.GLES20Activity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2783:9-2791:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2784:17-65
+	android:configChanges
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2786:17-110
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2785:17-64
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2783:19-58
+activity#com.example.android.apis.graphics.MatrixPaletteActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2793:9-2800:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2794:17-75
+	android:configChanges
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2795:17-110
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2793:19-65
+activity#com.example.android.apis.graphics.TranslucentGLSurfaceViewActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2802:9-2810:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2803:17-77
+	android:configChanges
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2805:17-110
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2804:17-57
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2802:19-76
+activity#com.example.android.apis.graphics.TriangleActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2812:9-2820:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2813:17-69
+	android:configChanges
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2815:17-110
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2814:17-58
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2812:19-60
+activity#com.example.android.apis.graphics.spritetext.SpriteTextActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2822:9-2830:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2823:17-63
+	android:configChanges
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2825:17-110
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2824:17-64
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2822:19-73
+activity#com.example.android.apis.graphics.TouchRotateActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2832:9-2840:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2833:17-64
+	android:configChanges
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2835:17-110
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2834:17-64
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2832:19-63
+activity#com.example.android.apis.graphics.PolyToPoly
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2842:9-2847:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2842:55-90
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2842:19-54
+activity#com.example.android.apis.graphics.ScaleToFit
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2849:9-2854:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2849:55-90
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2849:19-54
+activity#com.example.android.apis.graphics.RoundRects
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2856:9-2861:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2856:55-90
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2856:19-54
+activity#com.example.android.apis.graphics.ShapeDrawable1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2863:9-2868:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2863:59-106
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2863:19-58
+activity#com.example.android.apis.graphics.SurfaceViewOverlay
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2870:9-2876:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2871:17-61
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2870:19-62
+activity#com.example.android.apis.graphics.ShadowCardStack
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2878:9-2885:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2879:19-61
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2880:19-70
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2878:19-59
+activity#com.example.android.apis.graphics.ShadowCardDrag
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2887:9-2894:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2888:19-60
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2889:19-70
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2887:19-58
+activity#com.example.android.apis.graphics.WindowSurface
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2896:9-2902:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2897:17-56
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2896:19-57
+activity#com.example.android.apis.graphics.TextAlign
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2904:9-2910:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2905:54-89
+	android:hardwareAccelerated
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2904:19-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2905:19-53
+activity#com.example.android.apis.graphics.Arcs
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2912:9-2917:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2912:49-78
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2912:19-48
+activity#com.example.android.apis.graphics.Patterns
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2919:9-2924:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2919:53-86
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2919:19-52
+activity#com.example.android.apis.graphics.Clipping
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2926:9-2932:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2927:53-86
+	android:hardwareAccelerated
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2926:19-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2927:19-52
+activity#com.example.android.apis.graphics.Layers
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2934:9-2939:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2934:51-82
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2934:19-50
+activity#com.example.android.apis.graphics.UnicodeChart
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2941:9-2947:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2942:57-94
+	android:hardwareAccelerated
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2941:19-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2942:19-56
+activity#com.example.android.apis.graphics.PathFillTypes
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2949:9-2954:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2949:58-96
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2949:19-57
+activity#com.example.android.apis.graphics.Pictures
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2956:9-2962:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2957:53-86
+	android:hardwareAccelerated
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2956:19-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2957:19-52
+activity#com.example.android.apis.graphics.Vertices
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2964:9-2970:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2965:53-86
+	android:hardwareAccelerated
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2964:19-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2965:19-52
+activity#com.example.android.apis.graphics.AnimateDrawables
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2972:9-2977:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2972:61-102
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2972:19-60
+activity#com.example.android.apis.graphics.SensorTest
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2979:9-2984:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2979:55-90
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2979:19-54
+activity#com.example.android.apis.graphics.AlphaBitmap
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2986:9-2991:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2986:56-92
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2986:19-55
+activity#com.example.android.apis.graphics.Regions
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2993:9-2998:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2993:52-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:2993:19-51
+activity#com.example.android.apis.graphics.Sweep
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3000:9-3005:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3000:50-80
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3000:19-49
+activity#com.example.android.apis.graphics.BitmapMesh
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3007:9-3012:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3007:55-90
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3007:19-54
+activity#com.example.android.apis.graphics.MeasureText
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3014:9-3019:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3014:56-92
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3014:19-55
+activity#com.example.android.apis.graphics.Typefaces
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3021:9-3026:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3021:54-88
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3021:19-53
+activity#com.example.android.apis.graphics.FingerPaint
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3028:9-3033:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3028:56-92
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3028:19-55
+activity#com.example.android.apis.graphics.ColorMatrixSample
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3035:9-3040:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3035:62-98
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3035:19-61
+activity#com.example.android.apis.graphics.BitmapDecode
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3042:9-3048:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3043:57-94
+	android:hardwareAccelerated
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3042:19-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3043:19-56
+activity#com.example.android.apis.graphics.ColorFilters
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3050:9-3055:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3050:57-94
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3050:19-56
+activity#com.example.android.apis.graphics.CreateBitmap
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3057:9-3062:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3057:57-94
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3057:19-56
+activity#com.example.android.apis.graphics.DrawPoints
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3064:9-3070:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3065:55-86
+	android:hardwareAccelerated
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3064:19-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3065:19-54
+activity#com.example.android.apis.graphics.TouchPaint
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3072:9-3079:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3072:55-91
+	android:configChanges
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3074:17-130
+	android:theme
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3073:17-51
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3072:19-54
+activity#com.example.android.apis.graphics.BitmapPixels
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3081:9-3086:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3081:57-94
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3081:19-56
+activity#com.example.android.apis.graphics.Xfermodes
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3088:9-3093:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3088:54-88
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3088:19-53
+activity#com.example.android.apis.graphics.PathEffects
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3095:9-3100:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3095:56-92
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3095:19-55
+activity#com.example.android.apis.graphics.GradientDrawable1
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3102:9-3107:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3102:62-112
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3102:19-61
+activity#com.example.android.apis.graphics.PurgeableBitmap
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3109:9-3114:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3109:60-113
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3109:19-59
+activity-alias#com.example.android.apis.Purgeable
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3116:8-3121:26
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3116:100-150
+	android:targetActivity
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3116:24-74
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3116:75-99
+activity#com.example.android.apis.graphics.DensityActivity
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3123:9-3128:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3123:60-92
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3123:19-59
+activity#com.example.android.apis.media.MediaPlayerDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3134:9-3139:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3134:57-90
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3134:19-56
+activity#com.example.android.apis.media.MediaPlayerDemo_Audio
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3141:9-3145:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3141:63-96
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3141:19-62
+intent-filter#category:name:android.intent.category.SAMPLE_CODE
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3142:13-3144:29
+activity#com.example.android.apis.media.MediaPlayerDemo_Video
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3147:9-3151:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3147:63-96
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3147:19-62
+activity#com.example.android.apis.media.VideoViewDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3153:9-3158:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3153:55-86
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3153:19-54
+activity#com.example.android.apis.media.AudioFxDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3160:9-3165:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3160:53-82
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3160:19-52
+activity#com.example.android.apis.media.projection.MediaProjectionDemo
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3167:9-3173:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3168:17-54
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3167:19-71
+receiver#com.example.android.apis.appwidget.ExampleAppWidgetProvider
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3179:9-3185:20
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3179:19-69
+meta-data#android.appwidget.provider
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3180:13-3181:66
+	android:resource
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3181:21-63
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3180:24-65
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3182:13-3184:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3183:17-84
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3183:25-81
+activity#com.example.android.apis.appwidget.ExampleAppWidgetConfigure
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3187:9-3191:20
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3187:19-70
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3188:13-3190:29
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3189:17-87
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3189:25-84
+receiver#com.example.android.apis.appwidget.ExampleBroadcastReceiver
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3193:9-3198:20
+	android:enabled
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3193:70-93
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3193:19-69
+intent-filter#action:name:android.intent.ACTION_TIME+action:name:android.intent.ACTION_TIMEZONE_CHANGED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3194:13-3197:29
+action#android.intent.ACTION_TIMEZONE_CHANGED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3195:17-81
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3195:25-78
+action#android.intent.ACTION_TIME
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3196:17-69
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3196:25-66
+activity#com.example.android.apis.nfc.ForegroundDispatch
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3204:9-3209:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3204:58-96
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3204:19-57
+activity#com.example.android.apis.nfc.TechFilter
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3211:9-3225:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3211:50-80
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3211:19-49
+intent-filter#action:name:android.nfc.action.TECH_DISCOVERED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3218:13-3220:29
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3219:17-77
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3219:25-74
+meta-data#android.nfc.action.TECH_DISCOVERED
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3222:13-3224:15
+	android:resource
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3223:17-51
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3222:24-73
+activity#com.example.android.apis.nfc.ForegroundNdefPush
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3227:9-3232:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3227:58-96
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3227:19-57
+activity#com.example.android.apis.security.KeyStoreUsage
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3234:9-3240:20
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3234:58-91
+	android:windowSoftInputMode
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3235:13-52
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3234:19-57
+instrumentation
+ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3243:5-3245:40
+	android:label
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3245:9-37
+	android:targetPackage
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3244:9-57
+	android:name
+		ADDED from E:\files\apidemos\app\src\main\AndroidManifest.xml:3243:22-68

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/panli/Desktop/CS/Work/P5/two/whole_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="whole_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/whole_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/F_pc_module/stall" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/F_pc_module/pc_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/stall_module/Tnew_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Tnew_E[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Tnew_E[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/stall_module/Tnew_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Tnew_M[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Tnew_M[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/stall_module/Tnew_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Tnew_W[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Tnew_W[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/stall_module/A3_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A3_E[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A3_E[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/stall_module/A3_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A3_M[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A3_M[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/M_ctr/op_34" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op_34[5:0]</obj_property>
+      <obj_property name="ObjectShortName">op_34[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/M_ctr/func_34" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">func_34[5:0]</obj_property>
+      <obj_property name="ObjectShortName">func_34[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/M_ctr/lw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lw</obj_property>
+      <obj_property name="ObjectShortName">lw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/M_ctr/Tnew_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Tnew_M[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Tnew_M[1:0]</obj_property>
+   </wvobject>
+</wave_config>

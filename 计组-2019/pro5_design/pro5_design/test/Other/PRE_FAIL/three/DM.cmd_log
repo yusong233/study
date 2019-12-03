@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj two -o C:/Users/panli/Desktop/CS/Work/P5/two/DM.tfi -lib work C:/Users/panli/Desktop/CS/Work/P5/two//DM.v -module DM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

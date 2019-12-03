@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+STALL instance_name (
+    .instr_D(instr_D), 
+    .A3_E(A3_E), 
+    .A3_M(A3_M), 
+    .RegWr_E(RegWr_E), 
+    .RegWr_M(RegWr_M), 
+    .Tnew_E(Tnew_E), 
+    .Tnew_M(Tnew_M), 
+    .Tnew_W(Tnew_W), 
+    .stall(stall)
+    );
+
+

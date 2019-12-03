@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+Ctr_E instance_name (
+    .clk(clk), 
+    .op_12(op_12), 
+    .func_12(func_12), 
+    .MALUBE(MALUBE), 
+    .ALUctr(ALUctr), 
+    .op_23(op_23), 
+    .func_23(func_23)
+    );
+
+

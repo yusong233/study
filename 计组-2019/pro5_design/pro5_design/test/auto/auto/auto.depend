@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1545829291 source:c:\users\panli\desktop\cs\work\p5\test\auto\auto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

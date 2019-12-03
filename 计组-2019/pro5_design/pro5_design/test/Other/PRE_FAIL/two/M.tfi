@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+M instance_name (
+    .clk(clk), 
+    .V2_2(V2_2), 
+    .A2_2(A2_2), 
+    .A3_2(A3_2), 
+    .AO_2(AO_2), 
+    .pc4_2(pc4_2), 
+    .pc_2(pc_2), 
+    .V2_23(V2_23), 
+    .A2_23(A2_23), 
+    .A3_23(A3_23), 
+    .AO_23(AO_23), 
+    .pc4_23(pc4_23), 
+    .pc_23(pc_23)
+    );
+
+

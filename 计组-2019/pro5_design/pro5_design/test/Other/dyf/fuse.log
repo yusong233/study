@@ -1,0 +1,55 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/whole_tb_isim_beh.exe -prj C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/whole_tb_beh.prj work.whole_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/stall.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/pipelineRegister.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/pc.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/npcctrl.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/mux.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/MF_sel.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/im.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/grf.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/ext.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/dm.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/DataExt.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/cmp.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/alu.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/mips.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/whole_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module pc
+Compiling module im
+Compiling module cmp
+Compiling module IF_ID
+Compiling module Stall
+Compiling module ControlUnit
+Compiling module grf
+Compiling module MFMUX
+Compiling module ext16
+Compiling module npcctrl
+Compiling module MPC
+Compiling module MWAGE
+Compiling module ID_EX
+Compiling module MALUB
+Compiling module alu
+Compiling module EX_MEM
+Compiling module dm
+Compiling module MEM_WB
+Compiling module DataEXT
+Compiling module MMTR
+Compiling module MFSEL
+Compiling module mips
+Compiling module whole_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 15 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\whole_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 24 Verilog Units
+Built simulation executable C:/Users/panli/Desktop/CS/Work/P5/Other/dyf/whole_tb_isim_beh.exe
+Fuse Memory Usage: 30608 KB
+Fuse CPU Usage: 562 ms

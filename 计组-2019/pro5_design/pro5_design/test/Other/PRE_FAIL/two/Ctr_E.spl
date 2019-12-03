@@ -1,0 +1,16 @@
+[Inputs]
+clk
+RegWr_D
+=op_12[5:0]=
+=func_12[5:0]=
+[Outputs]
+MALUBE
+RegWr_E
+=ALUctr[2:0]=
+=op_23[5:0]=
+=func_23[5:0]=
+=Tnew_E[1:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Ctr_E
+

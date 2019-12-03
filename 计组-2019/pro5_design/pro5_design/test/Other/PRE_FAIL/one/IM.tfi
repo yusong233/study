@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+IM instance_name (
+    .imaddr(imaddr), 
+    .instr_0(instr_0)
+    );
+
+

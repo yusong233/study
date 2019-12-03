@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj two -o C:/Users/panli/Desktop/CS/Work/P5/two/Ctr_W.tfi -lib work C:/Users/panli/Desktop/CS/Work/P5/two//Ctr_W.v -module Ctr_W -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

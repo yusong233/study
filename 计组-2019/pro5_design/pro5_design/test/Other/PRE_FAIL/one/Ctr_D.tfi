@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+Ctr_D instance_name (
+    .clk(clk), 
+    .op_01(op_01), 
+    .func_01(func_01), 
+    .MA3E(MA3E), 
+    .ExtOp_1(ExtOp_1), 
+    .npc_sel(npc_sel), 
+    .op_12(op_12), 
+    .func_12(func_12)
+    );
+
+

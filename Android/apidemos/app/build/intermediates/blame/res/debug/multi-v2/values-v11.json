@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\files\\apidemos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "E:\\files\\apidemos\\app\\src\\main\\res\\values-v11\\bools.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "760",
+                        "endColumns": "45",
+                        "endOffsets": "801"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\0fdd47b168bd1e4b829c3d3d22671066\\appcompat-v7-24.0.0\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,8,14,20,26,32,38,39,40,41,46,51,56,58,60,61,62,111,161",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,474,899,1327,1753,2180,2605,2694,2795,2898,3306,3726,4148,4255,4384,4455,4538,8153,11908",
+                        "endLines": "7,13,19,25,31,37,38,39,40,45,50,55,57,59,60,61,110,160,161",
+                        "endColumns": "12,12,12,12,12,12,88,100,102,12,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "469,894,1322,1748,2175,2600,2689,2790,2893,3301,3721,4143,4250,4379,4450,4533,8148,11903,11994"
+                    },
+                    "to": {
+                        "startLines": "3,9,15,21,27,33,39,40,41,42,47,52,57,59,61,62,63,112,162",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "101,520,945,1373,1799,2226,2651,2740,2841,2944,3352,3772,4194,4301,4430,4501,4584,8199,11954",
+                        "endLines": "8,14,20,26,32,38,39,40,41,46,51,56,58,60,61,62,111,161,162",
+                        "endColumns": "12,12,12,12,12,12,88,100,102,12,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "515,940,1368,1794,2221,2646,2735,2836,2939,3347,3767,4189,4296,4425,4496,4579,8194,11949,12040"
+                    }
+                },
+                {
+                    "source": "E:\\files\\apidemos\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "20,23,29,26",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "801,956,1307,1122",
+                        "endColumns": "62,75,68,92",
+                        "endOffsets": "859,1027,1371,1210"
+                    },
+                    "to": {
+                        "startLines": "163,164,165,166",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "12045,12107,12182,12250",
+                        "endColumns": "61,74,67,91",
+                        "endOffsets": "12102,12177,12245,12337"
+                    }
+                }
+            ]
+        }
+    ]
+}

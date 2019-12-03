@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+Ctr_F instance_name (
+    .clk(clk), 
+    .op(op), 
+    .func(func), 
+    .zero(zero), 
+    .MPCF(MPCF), 
+    .op_01(op_01), 
+    .func_01(func_01)
+    );
+
+

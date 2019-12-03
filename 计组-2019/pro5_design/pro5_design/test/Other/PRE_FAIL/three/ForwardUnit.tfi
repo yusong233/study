@@ -1,0 +1,22 @@
+
+
+
+// Instantiate the module
+ForwardUnit instance_name (
+    .instr_D(instr_D), 
+    .A3_E(A3_E), 
+    .A3_M(A3_M), 
+    .A3_W(A3_W), 
+    .A1_E(A1_E), 
+    .A2_E(A2_E), 
+    .A2_M(A2_M), 
+    .Tnew_E(Tnew_E), 
+    .Tnew_M(Tnew_M), 
+    .FRD1D(FRD1D), 
+    .FRD2D(FRD2D), 
+    .FALUAE(FALUAE), 
+    .FALUBE(FALUBE), 
+    .FWDM(FWDM)
+    );
+
+

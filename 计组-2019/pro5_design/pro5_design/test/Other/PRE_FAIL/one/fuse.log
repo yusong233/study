@@ -1,0 +1,62 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/panli/Desktop/CS/Work/P5/one/whole_tb_isim_beh.exe -prj C:/Users/panli/Desktop/CS/Work/P5/one/whole_tb_beh.prj work.whole_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/decoder.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/W.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/STALL.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/pc.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/NPC.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/M.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/IM.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/GRF.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/ForwardUnit.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/EXT.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/E.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/DM.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/D.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/Ctr_W.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/Ctr_M.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/Ctr_E.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/Ctr_D.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/CMP.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/ALU.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/ADD4.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/mips.v" into library work
+Analyzing Verilog file "C:/Users/panli/Desktop/CS/Work/P5/one/whole_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/panli/Desktop/CS/Work/P5/one/Ctr_E.v" Line 55: Port sw is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/panli/Desktop/CS/Work/P5/one/Ctr_M.v" Line 36: Port addu is not connected to this instance
+Completed static elaboration
+Compiling module PC
+Compiling module IM
+Compiling module ADD4
+Compiling module decoder
+Compiling module Ctr_D
+Compiling module D
+Compiling module GRF
+Compiling module EXT
+Compiling module NPC
+Compiling module CMP
+Compiling module Ctr_E
+Compiling module E
+Compiling module ALU
+Compiling module Ctr_M
+Compiling module M
+Compiling module DM
+Compiling module Ctr_W
+Compiling module W
+Compiling module ForwardUnit
+Compiling module STALL
+Compiling module mips
+Compiling module whole_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 16 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\whole_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 23 Verilog Units
+Built simulation executable C:/Users/panli/Desktop/CS/Work/P5/one/whole_tb_isim_beh.exe
+Fuse Memory Usage: 29272 KB
+Fuse CPU Usage: 562 ms

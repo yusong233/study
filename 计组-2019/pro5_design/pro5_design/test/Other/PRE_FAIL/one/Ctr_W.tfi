@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+Ctr_W instance_name (
+    .clk(clk), 
+    .op_34(op_34), 
+    .func_34(func_34), 
+    .MRFWDW(MRFWDW), 
+    .RegWr_4(RegWr_4)
+    );
+
+

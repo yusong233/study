@@ -1,0 +1,896 @@
+ISim log file
+Running: C:\Users\panli\Desktop\CS\Work\P5\three\whole_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/panli/Desktop/CS/Work/P5/three/whole_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $ 8 <= 00000000
+                  55@00003004: $ 9 <= 00000001
+                  65@00003008: $10 <= 00000002
+                 105@00003014: $ 8 <= 00000001
+                 165@00003014: $ 8 <= 00000002
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $ 8 <= 00000000
+                  55@00003004: $ 9 <= 00000001
+                  65@00003008: $10 <= 00000002
+                 105@00003014: $ 8 <= 00000001
+                 165@00003014: $ 8 <= 00000002
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $28 <= 00000000
+                  55@00003004: $29 <= 00000000
+                  65@00003008: $ 1 <= 00001010
+                  75@0000300c: $10 <= 00000000
+                  75@00003010: *00000000 <= 00001010
+                  95@00003014: $ 2 <= 87230000
+                 105@00003018: $ 3 <= 00007856
+                 115@0000301c: $ 4 <= 85ff0000
+                 125@00003020: $ 5 <= 00000001
+                 135@00003024: $ 6 <= ffff0000
+                 145@00003028: $ 7 <= 0000ffff
+                 155@0000302c: $ 1 <= 87231010
+                 165@00003030: $ 9 <= 87238866
+                 175@00003034: $ 8 <= 00001010
+                 295@00003068: $ 2 <= 0000000c
+                 335@00003078: $31 <= 00003080
+                 335@0000307c: *0000000c <= 87231010
+                 355@00003088: $ 1 <= 8723101c
+                 365@0000308c: $ 1 <= 87231028
+                 375@00003090: $ 1 <= 87231034
+                 375@00003094: *0000000c <= 00003080
+                 395@00003098: $ 1 <= 00003080
+                 435@000030ac: *0000000c <= 00003080
+                 465@00003084: $ 1 <= 0000308c
+# show driver /whole_tb/uut/D_cmp_module/D1_1
+Driver for /whole_tb/uut/D_cmp_module/D1_1[0]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[10]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[11]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[12]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[13]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[14]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[15]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[16]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[17]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[18]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[19]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[1]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[20]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[21]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[22]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[23]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[24]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[25]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[26]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[27]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[28]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[29]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[2]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[30]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[31]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[3]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[4]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[5]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[6]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[7]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[8]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+Driver for /whole_tb/uut/D_cmp_module/D1_1[9]
+	St0	: /whole_tb/uut/Cont_84_10
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 84
+
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $28 <= 00000000
+                  55@00003004: $29 <= 00000000
+                  65@00003008: $ 1 <= 00001010
+                  75@0000300c: $10 <= 00000000
+                  75@00003010: *00000000 <= 00001010
+                  95@00003014: $ 2 <= 87230000
+                 105@00003018: $ 3 <= 00007856
+                 115@0000301c: $ 4 <= 85ff0000
+                 125@00003020: $ 5 <= 00000001
+                 135@00003024: $ 6 <= ffff0000
+                 145@00003028: $ 7 <= 0000ffff
+                 155@0000302c: $ 1 <= 87231010
+                 165@00003030: $ 9 <= 87238866
+                 175@00003034: $ 8 <= 00001010
+                 295@00003068: $ 2 <= 0000000c
+                 335@00003078: $31 <= 00003080
+                 335@0000307c: *0000000c <= 87231010
+                 355@00003088: $ 1 <= 8723101c
+                 365@0000308c: $ 1 <= 87231028
+                 375@00003090: $ 1 <= 87231034
+                 375@00003094: *0000000c <= 00003080
+                 395@00003098: $ 1 <= 00003080
+                 435@000030ac: *0000000c <= 00003080
+                 465@00003084: $ 1 <= 0000308c
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $28 <= 00000000
+                  55@00003004: $29 <= 00000000
+                  65@00003008: $ 1 <= 00001010
+                  75@0000300c: $10 <= 00000000
+                  75@00003010: *00000000 <= 00001010
+                  95@00003014: $ 2 <= 87230000
+                 105@00003018: $ 3 <= 00007856
+                 115@0000301c: $ 4 <= 85ff0000
+                 125@00003020: $ 5 <= 00000001
+                 135@00003024: $ 6 <= ffff0000
+                 145@00003028: $ 7 <= 0000ffff
+                 155@0000302c: $ 1 <= 87231010
+                 165@00003030: $ 9 <= 87238866
+                 175@00003034: $ 8 <= 00001010
+                 295@00003068: $ 2 <= 0000000c
+                 335@00003078: $31 <= 00003080
+                 335@0000307c: *0000000c <= 87231010
+                 355@00003088: $ 1 <= 8723101c
+                 365@0000308c: $ 1 <= 87231028
+                 375@00003090: $ 1 <= 87231034
+                 375@00003094: *0000000c <= 00003080
+                 395@00003098: $ 1 <= 00003080
+                 435@000030ac: *0000000c <= 00003080
+                 465@00003084: $ 1 <= 0000308c
+# show driver /whole_tb/uut/RD1_1
+Driver for /whole_tb/uut/RD1_1[0]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[10]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[11]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[12]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[13]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[14]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[15]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[16]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[17]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[18]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[19]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[1]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[20]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[21]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[22]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[23]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[24]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[25]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[26]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[27]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[28]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[29]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[2]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[30]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[31]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[3]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[4]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[5]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[6]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[7]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[8]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+Driver for /whole_tb/uut/RD1_1[9]
+	St0	: /whole_tb/uut/D_grf_module/Cont_38_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/GRF.v" Line 38
+
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $28 <= 00000000
+                  55@00003004: $29 <= 00000000
+                  65@00003008: $ 1 <= 00001010
+                  75@0000300c: $10 <= 00000000
+                  75@00003010: *00000000 <= 00001010
+                  95@00003014: $ 2 <= 87230000
+                 105@00003018: $ 3 <= 00007856
+                 115@0000301c: $ 4 <= 85ff0000
+                 125@00003020: $ 5 <= 00000001
+                 135@00003024: $ 6 <= ffff0000
+                 145@00003028: $ 7 <= 0000ffff
+                 155@0000302c: $ 1 <= 87231010
+                 165@00003030: $ 9 <= 87238866
+                 175@00003034: $ 8 <= 00001010
+                 295@00003068: $ 2 <= 0000000c
+                 335@00003078: $31 <= 00003080
+                 335@0000307c: *0000000c <= 87231010
+                 355@00003088: $ 1 <= 8723101c
+                 365@0000308c: $ 1 <= 87231028
+                 375@00003090: $ 1 <= 87231034
+                 375@00003094: *0000000c <= 00003080
+                 395@00003098: $ 1 <= 00003080
+                 435@000030ac: *0000000c <= 00003080
+                 465@00003084: $ 1 <= 0000308c
+# show driver /whole_tb/uut/D_grf_module/A1_1
+Driver for /whole_tb/uut/D_grf_module/A1_1[0]
+	St0	: /whole_tb/uut/Cont_57_3
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 57
+
+Driver for /whole_tb/uut/D_grf_module/A1_1[1]
+	St0	: /whole_tb/uut/Cont_57_3
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 57
+
+Driver for /whole_tb/uut/D_grf_module/A1_1[2]
+	St0	: /whole_tb/uut/Cont_57_3
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 57
+
+Driver for /whole_tb/uut/D_grf_module/A1_1[3]
+	St0	: /whole_tb/uut/Cont_57_3
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 57
+
+Driver for /whole_tb/uut/D_grf_module/A1_1[4]
+	St0	: /whole_tb/uut/Cont_57_3
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 57
+
+# show driver /whole_tb/uut/D_ctr/MPCF
+/whole_tb/uut/D_ctr/MPCF has no drivers.
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $28 <= 00000000
+                  55@00003004: $29 <= 00000000
+                  65@00003008: $ 1 <= 00001010
+                  75@0000300c: $10 <= 00000000
+                  75@00003010: *00000000 <= 00001010
+                  95@00003014: $ 2 <= 87230000
+                 105@00003018: $ 3 <= 00007856
+                 115@0000301c: $ 4 <= 85ff0000
+                 125@00003020: $ 5 <= 00000001
+                 135@00003024: $ 6 <= ffff0000
+                 145@00003028: $ 7 <= 0000ffff
+                 155@0000302c: $ 1 <= 87231010
+                 165@00003030: $ 9 <= 87238866
+                 175@00003034: $ 8 <= 00001010
+                 295@00003068: $ 2 <= 0000000c
+                 335@00003078: $31 <= 00003080
+                 335@0000307c: *0000000c <= 87231010
+                 355@00003088: $ 1 <= 8723101c
+                 365@0000308c: $ 1 <= 87231028
+                 375@00003090: $ 1 <= 87231034
+                 375@00003094: *0000000c <= 00003080
+                 395@00003098: $ 1 <= 00003080
+                 435@000030ac: *0000000c <= 00003080
+                 465@00003084: $ 1 <= 0000308c
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $28 <= 00000000
+                  55@00003004: $29 <= 00000000
+                  65@00003008: $ 1 <= 00001010
+                  75@0000300c: $10 <= 00000000
+                  75@00003010: *00000000 <= 00001010
+                  95@00003014: $ 2 <= 87230000
+                 105@00003018: $ 3 <= 00007856
+                 115@0000301c: $ 4 <= 85ff0000
+                 125@00003020: $ 5 <= 00000001
+                 135@00003024: $ 6 <= ffff0000
+                 145@00003028: $ 7 <= 0000ffff
+                 155@0000302c: $ 1 <= 87231010
+                 165@00003030: $ 9 <= 87238866
+                 175@00003034: $ 8 <= 00001010
+                 295@00003068: $ 2 <= 0000000c
+                 335@00003078: $31 <= 00003080
+                 335@0000307c: *0000000c <= 87231010
+                 355@00003088: $ 1 <= 8723101c
+                 365@0000308c: $ 1 <= 87231028
+                 375@00003090: $ 1 <= 87231034
+                 375@00003094: *0000000c <= 00003080
+                 395@00003098: $ 1 <= 00003080
+                 435@000030ac: *0000000c <= 00003080
+                 465@00003084: $ 1 <= 0000308c
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  55@00003004: $29 <= 00000000
+                  65@00003008: $ 1 <= 00001010
+                  75@0000300c: $10 <= 00000000
+                  75@00003010: *00000000 <= 00001010
+                  85@00003010: $ 1 <= 00000000
+                 105@00003018: $ 3 <= 00007856
+                 115@0000301c: $ 4 <= 85ff0000
+                 125@00003020: $ 5 <= 00000001
+                 135@00003024: $ 6 <= ffff0000
+                 145@00003028: $ 7 <= 0000ffff
+                 155@0000302c: $ 2 <= 00000000
+                 165@00003030: $ 9 <= 00007856
+                 175@00003034: $ 8 <= 00000000
+                 315@00000004: $29 <= 00000000
+                 335@00000004: $29 <= 00000000
+                 345@00000008: $ 1 <= 0000ffff
+                 355@0000000c: $10 <= 00001010
+                 355@00000010: *00000000 <= 0000ffff
+                 365@00000010: $ 1 <= 00000000
+                 385@00000018: $ 3 <= 00007856
+                 395@0000001c: $ 4 <= 85ff0000
+                 405@00000020: $ 5 <= 00000001
+                 415@00000024: $ 6 <= ffff0000
+                 425@00000028: $ 7 <= 0000ffff
+                 435@0000002c: $ 2 <= 00000000
+                 445@00000030: $ 9 <= 00007856
+                 455@00000034: $ 8 <= 00000000
+                 595@00000004: $29 <= 00000000
+                 615@00000004: $29 <= 00000000
+                 625@00000008: $ 1 <= 0000ffff
+                 635@0000000c: $10 <= 0000ffff
+                 635@00000010: *00000000 <= 0000ffff
+                 645@00000010: $ 1 <= 00000000
+                 665@00000018: $ 3 <= 00007856
+                 675@0000001c: $ 4 <= 85ff0000
+                 685@00000020: $ 5 <= 00000001
+                 695@00000024: $ 6 <= ffff0000
+                 705@00000028: $ 7 <= 0000ffff
+                 715@0000002c: $ 2 <= 00000000
+                 725@00000030: $ 9 <= 00007856
+                 735@00000034: $ 8 <= 00000000
+                 875@00000004: $29 <= 00000000
+                 895@00000004: $29 <= 00000000
+                 905@00000008: $ 1 <= 0000ffff
+                 915@0000000c: $10 <= 0000ffff
+                 915@00000010: *00000000 <= 0000ffff
+                 925@00000010: $ 1 <= 00000000
+                 945@00000018: $ 3 <= 00007856
+                 955@0000001c: $ 4 <= 85ff0000
+                 965@00000020: $ 5 <= 00000001
+                 975@00000024: $ 6 <= ffff0000
+                 985@00000028: $ 7 <= 0000ffff
+                 995@0000002c: $ 2 <= 00000000
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  55@00003004: $29 <= 00000000
+                  65@00003008: $ 1 <= 00001010
+                  75@0000300c: $10 <= 00000000
+                  85@00003010: $ 1 <= 00000000
+                  85@00003014: *00008723 <= 00000000
+                 105@00003018: $ 3 <= 78560000
+                 115@0000301c: $ 4 <= 000085ff
+                 125@00003020: $ 5 <= 00010000
+                 135@00003024: $ 6 <= 0000ffff
+                 145@00003028: $ 7 <= ffff0000
+                 155@0000302c: $ 2 <= 00000821
+                 165@00003030: $ 9 <= 78560000
+                 175@00003034: $ 8 <= 00000821
+                 315@00000004: $29 <= 00000000
+                 335@00000004: $29 <= 00000000
+                 345@00000008: $ 1 <= ffff1010
+                 355@0000000c: $10 <= 00000000
+                 365@00000010: $ 1 <= 00000000
+                 365@00000014: *00008723 <= 00000821
+                 385@00000018: $ 3 <= 78560000
+                 395@0000001c: $ 4 <= 000085ff
+                 405@00000020: $ 5 <= 00010000
+                 415@00000024: $ 6 <= 0000ffff
+                 425@00000028: $ 7 <= ffff0000
+                 435@0000002c: $ 2 <= 00000821
+                 445@00000030: $ 9 <= 78560000
+                 455@00000034: $ 8 <= 00000821
+                 595@00000004: $29 <= 00000000
+                 615@00000004: $29 <= 00000000
+                 625@00000008: $ 1 <= ffff1010
+                 635@0000000c: $10 <= 00000000
+                 645@00000010: $ 1 <= 00000000
+                 645@00000014: *00008723 <= 00000821
+                 665@00000018: $ 3 <= 78560000
+                 675@0000001c: $ 4 <= 000085ff
+                 685@00000020: $ 5 <= 00010000
+                 695@00000024: $ 6 <= 0000ffff
+                 705@00000028: $ 7 <= ffff0000
+                 715@0000002c: $ 2 <= 00000821
+                 725@00000030: $ 9 <= 78560000
+                 735@00000034: $ 8 <= 00000821
+                 875@00000004: $29 <= 00000000
+                 895@00000004: $29 <= 00000000
+                 905@00000008: $ 1 <= ffff1010
+                 915@0000000c: $10 <= 00000000
+                 925@00000010: $ 1 <= 00000000
+                 925@00000014: *00008723 <= 00000821
+                 945@00000018: $ 3 <= 78560000
+                 955@0000001c: $ 4 <= 000085ff
+                 965@00000020: $ 5 <= 00010000
+                 975@00000024: $ 6 <= 0000ffff
+                 985@00000028: $ 7 <= ffff0000
+                 995@0000002c: $ 2 <= 00000821
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  55@00003004: $29 <= 00000000
+                  65@00003008: $ 1 <= 00001010
+                  75@0000300c: $10 <= 00000000
+                  85@00003010: $ 1 <= 00000000
+                  85@00003014: *00008723 <= 00000000
+                 105@00003018: $ 3 <= 78560000
+                 115@0000301c: $ 4 <= 000085ff
+                 125@00003020: $ 5 <= 00010000
+                 135@00003024: $ 6 <= 0000ffff
+                 145@00003028: $ 7 <= ffff0000
+                 155@0000302c: $ 2 <= 00000821
+                 165@00003030: $ 9 <= 78560000
+                 175@00003034: $ 8 <= 00000821
+                 315@00000004: $29 <= 00000000
+                 335@00000004: $29 <= 00000000
+                 345@00000008: $ 1 <= ffff1010
+                 355@0000000c: $10 <= 00000000
+                 365@00000010: $ 1 <= 00000000
+                 365@00000014: *00008723 <= 00000821
+                 385@00000018: $ 3 <= 78560000
+                 395@0000001c: $ 4 <= 000085ff
+                 405@00000020: $ 5 <= 00010000
+                 415@00000024: $ 6 <= 0000ffff
+                 425@00000028: $ 7 <= ffff0000
+                 435@0000002c: $ 2 <= 00000821
+                 445@00000030: $ 9 <= 78560000
+                 455@00000034: $ 8 <= 00000821
+                 595@00000004: $29 <= 00000000
+                 615@00000004: $29 <= 00000000
+                 625@00000008: $ 1 <= ffff1010
+                 635@0000000c: $10 <= 00000000
+                 645@00000010: $ 1 <= 00000000
+                 645@00000014: *00008723 <= 00000821
+                 665@00000018: $ 3 <= 78560000
+                 675@0000001c: $ 4 <= 000085ff
+                 685@00000020: $ 5 <= 00010000
+                 695@00000024: $ 6 <= 0000ffff
+                 705@00000028: $ 7 <= ffff0000
+                 715@0000002c: $ 2 <= 00000821
+                 725@00000030: $ 9 <= 78560000
+                 735@00000034: $ 8 <= 00000821
+                 875@00000004: $29 <= 00000000
+                 895@00000004: $29 <= 00000000
+                 905@00000008: $ 1 <= ffff1010
+                 915@0000000c: $10 <= 00000000
+                 925@00000010: $ 1 <= 00000000
+                 925@00000014: *00008723 <= 00000821
+                 945@00000018: $ 3 <= 78560000
+                 955@0000001c: $ 4 <= 000085ff
+                 965@00000020: $ 5 <= 00010000
+                 975@00000024: $ 6 <= 0000ffff
+                 985@00000028: $ 7 <= ffff0000
+                 995@0000002c: $ 2 <= 00000821
+# show driver /whole_tb/uut/D_npc_module/npc_sel
+/whole_tb/uut/D_npc_module/npc_sel has no drivers.
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  55@00003004: $29 <= 00000000
+                  65@00003008: $ 1 <= 00001010
+                  75@0000300c: $10 <= 00000000
+                  85@00003010: $ 1 <= 00000000
+                  85@00003014: *00008723 <= 00000000
+                 105@00003018: $ 3 <= 78560000
+                 115@0000301c: $ 4 <= 000085ff
+                 125@00003020: $ 5 <= 00010000
+                 135@00003024: $ 6 <= 0000ffff
+                 145@00003028: $ 7 <= ffff0000
+                 155@0000302c: $ 2 <= 00000821
+                 165@00003030: $ 9 <= 78560000
+                 175@00003034: $ 8 <= 00000821
+                 315@00000004: $29 <= 00000000
+                 335@00000004: $29 <= 00000000
+                 345@00000008: $ 1 <= ffff1010
+                 355@0000000c: $10 <= 00000000
+                 365@00000010: $ 1 <= 00000000
+                 365@00000014: *00008723 <= 00000821
+                 385@00000018: $ 3 <= 78560000
+                 395@0000001c: $ 4 <= 000085ff
+                 405@00000020: $ 5 <= 00010000
+                 415@00000024: $ 6 <= 0000ffff
+                 425@00000028: $ 7 <= ffff0000
+                 435@0000002c: $ 2 <= 00000821
+                 445@00000030: $ 9 <= 78560000
+                 455@00000034: $ 8 <= 00000821
+                 595@00000004: $29 <= 00000000
+                 615@00000004: $29 <= 00000000
+                 625@00000008: $ 1 <= ffff1010
+                 635@0000000c: $10 <= 00000000
+                 645@00000010: $ 1 <= 00000000
+                 645@00000014: *00008723 <= 00000821
+                 665@00000018: $ 3 <= 78560000
+                 675@0000001c: $ 4 <= 000085ff
+                 685@00000020: $ 5 <= 00010000
+                 695@00000024: $ 6 <= 0000ffff
+                 705@00000028: $ 7 <= ffff0000
+                 715@0000002c: $ 2 <= 00000821
+                 725@00000030: $ 9 <= 78560000
+                 735@00000034: $ 8 <= 00000821
+                 875@00000004: $29 <= 00000000
+                 895@00000004: $29 <= 00000000
+                 905@00000008: $ 1 <= ffff1010
+                 915@0000000c: $10 <= 00000000
+                 925@00000010: $ 1 <= 00000000
+                 925@00000014: *00008723 <= 00000821
+                 945@00000018: $ 3 <= 78560000
+                 955@0000001c: $ 4 <= 000085ff
+                 965@00000020: $ 5 <= 00010000
+                 975@00000024: $ 6 <= 0000ffff
+                 985@00000028: $ 7 <= ffff0000
+                 995@0000002c: $ 2 <= 00000821
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  55@00003004: $29 <= 00000000
+                  65@00003008: $ 1 <= 00001010
+                  75@0000300c: $10 <= 00000000
+                  85@00003010: $ 1 <= 00000000
+                  85@00003014: *00008723 <= 00000000
+                 105@00003018: $ 3 <= 78560000
+                 115@0000301c: $ 4 <= 000085ff
+                 125@00003020: $ 5 <= 00010000
+                 135@00003024: $ 6 <= 0000ffff
+                 145@00003028: $ 7 <= ffff0000
+                 155@0000302c: $ 2 <= 00000821
+                 165@00003030: $ 9 <= 78560000
+                 175@00003034: $ 8 <= 00000821
+                 315@00000004: $29 <= 00000000
+                 335@00000004: $29 <= 00000000
+                 345@00000008: $ 1 <= ffff1010
+                 355@0000000c: $10 <= 00000000
+                 365@00000010: $ 1 <= 00000000
+                 365@00000014: *00008723 <= 00000821
+                 385@00000018: $ 3 <= 78560000
+                 395@0000001c: $ 4 <= 000085ff
+                 405@00000020: $ 5 <= 00010000
+                 415@00000024: $ 6 <= 0000ffff
+                 425@00000028: $ 7 <= ffff0000
+                 435@0000002c: $ 2 <= 00000821
+                 445@00000030: $ 9 <= 78560000
+                 455@00000034: $ 8 <= 00000821
+                 595@00000004: $29 <= 00000000
+                 615@00000004: $29 <= 00000000
+                 625@00000008: $ 1 <= ffff1010
+                 635@0000000c: $10 <= 00000000
+                 645@00000010: $ 1 <= 00000000
+                 645@00000014: *00008723 <= 00000821
+                 665@00000018: $ 3 <= 78560000
+                 675@0000001c: $ 4 <= 000085ff
+                 685@00000020: $ 5 <= 00010000
+                 695@00000024: $ 6 <= 0000ffff
+                 705@00000028: $ 7 <= ffff0000
+                 715@0000002c: $ 2 <= 00000821
+                 725@00000030: $ 9 <= 78560000
+                 735@00000034: $ 8 <= 00000821
+                 875@00000004: $29 <= 00000000
+                 895@00000004: $29 <= 00000000
+                 905@00000008: $ 1 <= ffff1010
+                 915@0000000c: $10 <= 00000000
+                 925@00000010: $ 1 <= 00000000
+                 925@00000014: *00008723 <= 00000821
+                 945@00000018: $ 3 <= 78560000
+                 955@0000001c: $ 4 <= 000085ff
+                 965@00000020: $ 5 <= 00010000
+                 975@00000024: $ 6 <= 0000ffff
+                 985@00000028: $ 7 <= ffff0000
+                 995@0000002c: $ 2 <= 00000821
+# show driver /whole_tb/uut/D_ctr/j
+/whole_tb/uut/D_ctr/j has no drivers.
+# show driver /whole_tb/uut/F_pc_module/npc_0
+Driver for /whole_tb/uut/F_pc_module/npc_0[0]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[10]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[11]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[12]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[13]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[14]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[15]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[16]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[17]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[18]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[19]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[1]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[20]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[21]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[22]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[23]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[24]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[25]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[26]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[27]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[28]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[29]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[2]
+	St1	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[30]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[31]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[3]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[4]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[5]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[6]
+	St1	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[7]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[8]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+
+Driver for /whole_tb/uut/F_pc_module/npc_0[9]
+	St0	: /whole_tb/uut/Cont_33_2
+		  in File "C:/Users/panli/Desktop/CS/Work/P5/three/mips.v" Line 33
+

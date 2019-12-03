@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/panli/Desktop/CS/Work/P5/two/whole_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="whole_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/whole_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/F_pc_module/npc_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">npc_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">npc_0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/F_pc_module/pc_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/F_im_module/instr_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/D_npc_module/npc_sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">npc_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">npc_sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/D_npc_module/pc_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/D_npc_module/Imm26_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Imm26_1[25:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm26_1[25:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/whole_tb/uut/D_npc_module/npc_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">npc_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">npc_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

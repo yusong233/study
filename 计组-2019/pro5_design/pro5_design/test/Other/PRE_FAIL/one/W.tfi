@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+W instance_name (
+    .clk(clk), 
+    .A3_3(A3_3), 
+    .AO_3(AO_3), 
+    .DR_3(DR_3), 
+    .pc4_3(pc4_3), 
+    .pc_3(pc_3), 
+    .A3_34(A3_34), 
+    .AO_34(AO_34), 
+    .DR_34(DR_34), 
+    .pc4_34(pc4_34), 
+    .pc_34(pc_34)
+    );
+
+

@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+D instance_name (
+    .clk(clk), 
+    .IR_0(IR_0), 
+    .pc4_0(pc4_0), 
+    .pc_0(pc_0), 
+    .IR_01(IR_01), 
+    .pc4_01(pc4_01), 
+    .pc_01(pc_01)
+    );
+
+

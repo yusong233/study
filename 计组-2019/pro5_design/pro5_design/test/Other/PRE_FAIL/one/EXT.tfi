@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+EXT instance_name (
+    .ExtOp_1(ExtOp_1), 
+    .Imm_1(Imm_1), 
+    .E32_1(E32_1)
+    );
+
+

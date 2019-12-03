@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+ALU instance_name (
+    .ALUctr_2(ALUctr_2), 
+    .A_2(A_2), 
+    .B_2(B_2), 
+    .C_2(C_2)
+    );
+
+
